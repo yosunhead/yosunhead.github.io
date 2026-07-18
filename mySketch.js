@@ -41,7 +41,7 @@ function setup() {
 
 function draw() {
   background(220);
-  scale(0.8);
+  //scale(0.8);
   image(img1,pos1x,pos1y);
   image(img2,pos2x,pos2y);
   image(img3,pos3x,pos3y);
