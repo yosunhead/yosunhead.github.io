@@ -15,8 +15,8 @@ function preload(){
   imgback=loadImage('back.png');
 }
 function setup() {
-  //createCanvas(800, 1300);
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(800, 1300);
+  //createCanvas(windowWidth, windowHeight);
   slidervalue=0;
   slidercounter=0;
   pos1x=0;
