@@ -105,7 +105,7 @@ function sleepchech() {
   if (mousePressed==true) {
     idle=0;
   }
-  if (idle>1000) {
+  if (idle>10000) {
     pos1x=0;
     pos1y=0;
     pos2x=0;
