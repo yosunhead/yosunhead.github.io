@@ -15,7 +15,8 @@ function preload(){
   imgback=loadImage('back.png');
 }
 function setup() {
-  createCanvas(800, 1300);
+  //createCanvas(800, 1300);
+  createCanvas(windowWidth, windowHeight);
   slidervalue=0;
   slidercounter=0;
   pos1x=0;
@@ -41,7 +42,7 @@ function setup() {
 
 function draw() {
   background(220);
-  //scale(0.8);
+  scale(0.8);
   image(img1,pos1x,pos1y);
   image(img2,pos2x,pos2y);
   image(img3,pos3x,pos3y);
